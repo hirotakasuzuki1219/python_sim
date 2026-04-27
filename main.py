@@ -36,11 +36,4 @@ for t in t_data:
     history_y.append(y)
 
 # 描画・保存関数を呼び出す（dtを渡してfpsを自動計算）
-run_simulation_visualizer(
-    t_data=t_data,
-    history_y=history_y,
-    y_eq=y_eq,
-    L0=L0,
-    duration=duration,
-    dt=dt
-)
+run_simulation_visualizer(t_data, history_y, y_eq, duration, dt)
