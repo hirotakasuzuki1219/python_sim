@@ -14,7 +14,7 @@
 
 ```bash
 # リポジトリのクローン
-git clone [https://github.com/hirotakasuzuki1219/python_sim.git](https://github.com/hirotakasuzuki1219/python_sim.git)
+git clone https://github.com/hirotakasuzuki1219/python_sim.git
 cd python_sim
 
 # 仮想環境の作成とライブラリのインストール
