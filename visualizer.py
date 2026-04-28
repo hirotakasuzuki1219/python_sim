@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 
-def run_simulation_visualizer(t_data, history_y, y_eq, duration, dt, save_filename="simulation.gif"):
+def run_simulation_visualizer(t_data, history_y, y_eq, duration, dt, save_filename):
     """
     シミュレーション結果を受け取り、実時間に同期したアニメーション表示と保存を行う関数
     """
