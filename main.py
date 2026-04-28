@@ -11,8 +11,8 @@ g = 9.81
 L0 = 2.0 # 自然長
 
 # 描画用
-save_filename="simulation.gif" # 保存するGIFファイルの名前
-# save_filename="simulation_error.gif" # 保存するGIFファイルの名前
+save_filename="results/simulation.gif" # 保存するGIFファイルの名前
+# save_filename="results/simulation_error.gif" # 保存するGIFファイルの名前
 
 # --- シミュレーション設定 ---
 dt = 0.05
