@@ -31,6 +31,12 @@
 Python パッケージ管理ツールとして `uv` を使っています。
 
 ```bash
+# uvのインストール
+brew install uv
+
+# Pythonのインストール
+uv python install
+
 # リポジトリのクローン
 git clone https://github.com/hirotakasuzuki1219/python_sim.git
 cd python_sim
