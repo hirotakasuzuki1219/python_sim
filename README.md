@@ -24,7 +24,7 @@
   - 運動方程式 ($ma = F$) を数値解法（オイラー法）を用いて解いています。
   - 結果のグラフやアニメーションを出力・保存
 
-![シミュレーションGIF](results/simulation.gif)
+![シミュレーションGIF](results/Results.gif)
 
 ### 計算用プログラム
 
@@ -52,7 +52,7 @@ uv run python main.py
 ### シミュレーションの注意点について理解してもらう
 #### 失敗例：不適切な条件設定による誤差、発散
 
-![シミュレーションの失敗例](results/simulation_error.gif)
+![シミュレーションの失敗例](results/Results_error.gif)
 
 #### 実験との比較
 - 実験概要
