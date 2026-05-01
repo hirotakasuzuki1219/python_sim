@@ -11,6 +11,8 @@
     - ゲーム内の物体が物理法則に従い動く
   - アニメーション
     - 現実に即したアニメーション（水、衣服、ゼリー、…）
+- 生成AIによって様々な映像が作れるようになったが、リアリティを検証できるだけのセンスが必要になる。
+  - 物の落下、運動、爆発、揺れ…
 ### この講座のコンセプト
 - シミュレーション技術を学ぶ入り口となるような教材を提供したい。
   - 実際にシミュレーション技術を動かしながら体感してみよう
@@ -19,10 +21,16 @@
 - アニメーションやゲームなどの制作者、ものづくり系エンジニアを目指す人
   - データ欲しい
   - ゲーム業界、アニメーション業界、製造業界への就職データ
+  - 2025年卒のN高、S高、R高の生徒は、45.54%が大学進学、10.28%が就職している。[HPより](https://nnn.ed.jp/results/)
+    - 神戸製鋼所などの製造業への就職や、イラストレーター・アーティストなど、コンテンツ制作業界への進出も[2024年度就職実績](https://nnn.ed.jp/results/job/)
 ### この講義の社会へのインパクト 
 - STEM教育からSTEAM教育へ
   - 単なる科学（Science）に芸術・表現（Art）を掛け合わせた「STEAM教育」の重要性が文科省からも提唱されています。
   - この教材は、物理学を「表現の道具」として再定義するものであり、「物理がわからないからCGが作れない」という障壁を取り払うインパクトがあります。
+- クリエイターの育成に寄与
+  - 世界のゲーム市場の売り上げは、1,888億ドル、プレイヤーは36億人[参考: Newzoo's Global Games Marlet Report 2025 (Summary)](https://newzoo.com/resources/trend-reports/newzoo-global-games-market-report-2025?utm_source=chatgpt.com)
+  - アメリカの40%以上のゲーム会社が、3Dゲームデザインエンジンとリアルタイムシミュレーション技術に投資している。[参考：Market Growth Reports (Summary)](https://www.marketgrowthreports.com/market-reports/3d-gaming-technology-market-116586?utm_source=chatgpt.com)
+  - 2.8兆円規模の海外展開がされているゲームではXR・3D対応できる人材育成が重要[新たなクールジャパン戦略](https://www.cao.go.jp/cool_japan/aratana/pdf/gaiyou1.pdf)
 ## 講座の内容
 ### 概要
 - バネの振動を題材に、計算用プログラムを自身の手で完成させてもらう。
@@ -93,7 +101,9 @@ uv run python main.py
 この授業で学んだことを基に、以下のような授業へと発展させたい。
 ### 既存の物理エンジンを活用したシミュレーション
 - 実際の開発では、複雑な物体の運動方程式を解くのに既存のソルバーを使うことが多い
-  - UnityのNvidia PhysX、 [Blender Python API](https://meet.google.com/zsa-qgff-vib?authuser=0)
+  - UnityのNvidia PhysX
+  - [Blender Python API](https://meet.google.com/zsa-qgff-vib?authuser=0)
+    - エヴァンゲリオンもBlenderが用いられる。[参考](https://cgworld.jp/article/202307-cgw299-eva.html)
 ### ものづくりへの応用
 - ロケット開発
   - どうやったら大気圏を脱出できるかな？
