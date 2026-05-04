@@ -87,7 +87,7 @@ uv run python FILE_NAME
 - 既存のソルバーを使って高度なシミュレーションを実現
   - 布、ソフトボディ（ばねの応用）
 
-![Blender Simulation](https://github.com/hirotakasuzuki1219/python_sim/04_Blender/Cloth/movie/blender_cloth_sim.mp4)
+![Blender Simulation](https://github.com/hirotakasuzuki1219/python_sim/edit/main/README.md#:~:text=blender_cloth_sim.mp4)
 
   - 流体、海洋、爆発のシミュレーションは計算ロジックが大きく異なるため「おまけ」に
     - 流体と爆発についてはナビエ・ストークス方程式が解かれ、海洋では高速フーリエ変換が用いられる。
