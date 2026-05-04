@@ -7,15 +7,14 @@
   - 製造業
     - 目標性能を満たしているか、狙った動きをするのかを視覚的に確認。（CAE）
     - デジタルツイン：デジタル空間の中に現実世界の環境（工場、都市、工事現場など）を作り出す技術
-      - 建設現場の作業工程のシミュレーションや、現場の状況可視化に活用される。（[参考：コマツ スマートコンストラクション](https://kcsj.komatsu/ict/smartconstruction)）
-      - 防災計画の作成にも活用（[参考：PLATEAU](https://www.mlit.go.jp/plateau/)）
-  - ゲーム
-    - アメリカの40%以上のゲーム会社が、3Dゲームデザインエンジンとリアルタイムシミュレーション技術に投資している。（[参考：Market Growth Reports (Summary)](https://www.marketgrowthreports.com/market-reports/3d-gaming-technology-market-116586?utm_source)）
-  - アニメーション
-    - クールジャパン戦略では、2.8兆円規模の海外展開がされているゲームではXR・3D対応できる人材育成が重要であると述べられている。（[新たなクールジャパン戦略](https://www.cao.go.jp/cool_japan/aratana/pdf/gaiyou1.pdf)）
+      - [建設現場の作業工程のシミュレーション](https://kcsj.komatsu/ict/smartconstruction)や、現場の状況可視化に活用される。
+      - [防災計画の作成](https://www.mlit.go.jp/plateau/)にも活用
+  - ゲーム・アニメーション
+    - [クールジャパン戦略](https://www.cao.go.jp/cool_japan/aratana/pdf/gaiyou1.pdf)では、2.8兆円規模の海外展開がされているゲームではXR・3D対応できる人材育成が重要であると述べられている。
     - エヴァンゲリオンの制作にもBlenderの物理シミュレーション機能が活用され、Houdiniを使用したパーティクルのシミュレーションを映像に使用している。（[CGWORLD](https://cgworld.jp/article/202307-cgw299-eva.html)）
   - 生成AIの台頭
     - 生成AIによって様々なコンテンツが作れるようになったが、2026年時点ではリアリティを検証できるだけのセンスが必要になる。
+- ものづくり系エンジニア、クリエイターを目指すにあたり、シミュレーション技術は重要
 ### この講座のコンセプト
 - シミュレーション技術を活用したエンジニア・クリエイターになるための入り口となるような教材を提供したい。
   - 実際にシミュレーション技術を自分の手で動かしながら体感する
