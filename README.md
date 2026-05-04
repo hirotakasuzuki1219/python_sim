@@ -4,16 +4,16 @@
 ## 背景
 ### 実社会で扱う物理現象
 - 複雑な物理現象を扱う際には、コンピュータシミュレーションが用いられる。
-  - 製造業
+  - **製造業**
     - 目標性能を満たしているか、狙った動きをするのかを視覚的に確認。（CAE）
     - デジタルツイン：デジタル空間の中に現実世界の環境（工場、都市、工事現場など）を作り出す技術
       - [建設現場の作業工程のシミュレーション](https://kcsj.komatsu/ict/smartconstruction)や、現場の状況可視化に活用される。（コマツ スマートコンストラクション）
       - [防災計画の作成](https://www.mlit.go.jp/plateau/)にも活用（PLATEAU） 
-  - ゲーム・アニメーション
+  - **ゲーム・アニメーション**
     - コンテンツ内の物体が現実に則した動きをする
       - [クールジャパン戦略](https://www.cao.go.jp/cool_japan/index.html)では、2.8兆円規模の海外展開がされているゲームではXR・3D対応できる人材育成が重要であると述べられている。（[参考](https://www.cao.go.jp/cool_japan/aratana/pdf/gaiyou1.pdf)）
       - エヴァンゲリオンの制作にもBlenderが活用され、Houdiniを使用したパーティクルのシミュレーションを映像に使用している。（[CGWORLD](https://cgworld.jp/article/202307-cgw299-eva.html)）
-  - 生成AIの台頭
+  - **生成AIの台頭**
     - 生成AIによって様々なコンテンツが作れるようになったが、2026年時点ではリアリティを検証できるだけのセンスが必要になる。
 - ものづくり系エンジニア、クリエイターを目指すにあたり、シミュレーション技術は重要
 ### この講座のコンセプト
@@ -63,17 +63,20 @@ uv venv
 uv pip install -r requirements.txt
 
 # プログラムの実行
-uv run python main.py
+uv run python FILE_NAME
 ```
 
 ### シミュレーションの注意点について理解してもらう
 #### 失敗例：不適切な条件設定による誤差、発散
 
-![シミュレーションの失敗例](results/Results_error.gif)
+![シミュレーションの失敗例](01_spring_1D/results/Results_error.gifresults/Results_error.gif)
 
 ### 多自由度系への拡張
 - モデルをより複雑に
-  - ゼリーのようなシミュレーション
+  - ソフトボディシミュレーション
+
+![ソフトボティ](02_soft_body/gif/soft_body_simulation.gif)
+
   - 布のようなシミュレーション
   - Blernder API活用に向けた足がかりに
 
