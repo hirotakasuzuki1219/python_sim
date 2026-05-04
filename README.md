@@ -75,7 +75,7 @@ uv run python FILE_NAME
 - モデルをより複雑に
   - ソフトボディシミュレーション
 
-![ソフトボティ](02_soft_body/gif/soft_body_simulation.gif)
+![ソフトボティ](02_soft_body_2D/gif/soft_body_simulation.gif)
 
   - 布のようなシミュレーション
   - Blernder API活用に向けた足がかりに
