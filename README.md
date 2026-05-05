@@ -6,19 +6,18 @@
 - 複雑な物理現象を扱う際には、コンピュータシミュレーションが用いられる。
   - **製造業・建設業**
     - 目標性能を満たしているか、狙った動きをするのかを視覚的に確認。（CAE）
-    - デジタルツイン：デジタル空間の中に現実世界の環境（工場、都市、工事現場など）を作り出す技術。SDKIによれば、デジタルツインのグローバル市場は、2022年から約63倍の6,255億ドルに成長すると予想されている。（[参考：総務省 情報白書令和6年度版](https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/r06/html/nd217530.html)）
-      - 建設現場の作業工程のシミュレーションや、現場の状況可視化（[コマツ スマートコンストラクション](https://kcsj.komatsu/ict/smartconstruction)）
-      - 防災計画の作成（[PLATEAU](https://www.mlit.go.jp/plateau/)） 
+    - デジタルツイン：デジタル空間の中に現実世界の環境（工場、[都市](https://www.mlit.go.jp/plateau/)、[工事現場]((https://kcsj.komatsu/ict/smartconstruction))など）を作り出す技術。SDKIによれば、デジタルツインのグローバル市場は、2022年から約63倍の6,255億ドルに成長すると予想されている。（[参考：総務省 情報白書令和6年度版](https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/r06/html/nd217530.html)）
       
   - **ゲーム・アニメーション**
     - コンテンツ内の物体が物理法則に従い動く
       - エヴァンゲリオンの制作にもBlenderが活用され、Houdiniを使用したパーティクルのシミュレーションを映像に使用している。（[CGWORLD](https://cgworld.jp/article/202307-cgw299-eva.html)）
-      - [クールジャパン戦略](https://www.cao.go.jp/cool_japan/index.html)では、2.8兆円規模の海外展開がされているゲームではXR・3D対応できる人材育成が重要であると述べられている。（[参考](https://www.cao.go.jp/cool_japan/aratana/pdf/gaiyou1.pdf)）
-      - [アニメーション製作者実態調査2026](https://www.janica.jp/survey/survey2026Report.pdf)
-        - 「安心して仕事を取り組むために必要なこと」として、83.1%が「報酬額が増えること」をあげている。
-        - 収入は横ばい（平均444.6万円）で、物価上昇より実質目減りしている。
-      - [ゲーム開発者の就業とキャリア形成2024](https://www.cesa.or.jp/uploads/2025/info20250120-1.pdf)
-        - [テクニカルアーティスト](https://career.famitsu.com/column/7404)の平均年収は、役員、プロデューサー、ディレクターに次いで、832.9万円と高水準。エンジニアも721.5万円と高い。（アーティストは555.1万円）
+    - [クールジャパン戦略](https://www.cao.go.jp/cool_japan/index.html)
+      - 2.8兆円規模の海外展開がされているゲームではXR・3D対応できる人材育成が重要であると述べられている。（[参考](https://www.cao.go.jp/cool_japan/aratana/pdf/gaiyou1.pdf)）
+    - [アニメーション製作者実態調査2026](https://www.janica.jp/survey/survey2026Report.pdf)
+      - 「安心して仕事を取り組むために必要なこと」として、83.1%が「報酬額が増えること」をあげている。
+      - 収入は横ばい（平均444.6万円）で、物価上昇より実質目減りしている。
+    - [ゲーム開発者の就業とキャリア形成2024](https://www.cesa.or.jp/uploads/2025/info20250120-1.pdf)
+      - [テクニカルアーティスト](https://career.famitsu.com/column/7404)の平均年収は、役員、プロデューサー、ディレクターに次いで、832.9万円と高水準。エンジニアも721.5万円と高い。（アーティストは555.1万円）
 
 - 競争力の高いものづくり系エンジニア、クリエイターを目指すにあたり、シミュレーション技術（及びそれに必要なプログラミング技術）の習得は重要
 ### この講座のコンセプト
