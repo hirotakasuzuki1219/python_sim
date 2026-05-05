@@ -50,11 +50,13 @@
 
 ### [Blender Python API](https://unolaboratory.com/blender-python-physics/#toc11)のを活用したシミュレーションの実施
 - BlenderのScripting (Python)を使って物理演算機能を実装していく。
-  - 布、ソフトボディ（ばねの応用）
-
-https://github.com/user-attachments/assets/da1a1a36-6e5d-4f7a-af42-d8da8b7ed17e
+  - ソフトボディ（ばねの応用）
 
 https://github.com/user-attachments/assets/04e90078-ceb9-490d-9e2f-3a76125136ac
+
+  - 布（ばねの応用）
+
+https://github.com/user-attachments/assets/da1a1a36-6e5d-4f7a-af42-d8da8b7ed17e
 
   - 流体、海洋、爆発のシミュレーションは計算ロジックが大きく異なるため「おまけ」に
     - 流体と爆発についてはナビエ・ストークス方程式が解かれ、海洋では高速フーリエ変換が用いられる。
