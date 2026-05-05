@@ -1,7 +1,3 @@
-
-
-https://github.com/user-attachments/assets/da1a1a36-6e5d-4f7a-af42-d8da8b7ed17e
-
 # 「コンテンツ制作のための物理シミュレーション入門（仮）」
 この授業では、計算用プログラム(Python)を自身の手で作成しながら、コンピュータシミュレーションを体感してもらいます。
 
@@ -91,7 +87,7 @@ uv run python FILE_NAME
 - 既存のソルバーを使って高度なシミュレーションを実現
   - 布、ソフトボディ（ばねの応用）
 
-![Blender Simulation](https://github.com/user-attachments/assets/077b65c4-869b-4902-ad81-7cbba6a5a9b8)
+https://github.com/user-attachments/assets/da1a1a36-6e5d-4f7a-af42-d8da8b7ed17e
 
   - 流体、海洋、爆発のシミュレーションは計算ロジックが大きく異なるため「おまけ」に
     - 流体と爆発についてはナビエ・ストークス方程式が解かれ、海洋では高速フーリエ変換が用いられる。
