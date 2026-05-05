@@ -4,15 +4,18 @@
 ## 背景
 ### 実社会で扱う物理現象
 - 複雑な物理現象を扱う際には、コンピュータシミュレーションが用いられる。
-  - **製造業**
+  - **製造業・建設業**
     - 目標性能を満たしているか、狙った動きをするのかを視覚的に確認。（CAE）
-    - デジタルツイン：デジタル空間の中に現実世界の環境（工場、都市、工事現場など）を作り出す技術 **（市場規模について説明したい）**
-      - [建設現場の作業工程のシミュレーション](https://kcsj.komatsu/ict/smartconstruction)や、現場の状況可視化に活用される。（コマツ スマートコンストラクション）
-      - [防災計画の作成](https://www.mlit.go.jp/plateau/)にも活用（PLATEAU） 
+    - デジタルツイン：デジタル空間の中に現実世界の環境（工場、都市、工事現場など）を作り出す技術 
+      - SDKIによれば、デジタルツインのグローバル市場は、2022年から約63倍の6,255億ドルに成長すると予想されている。（[参考：総務省 情報白書令和6年度版](https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/r06/html/nd217530.html)）
+      - 活用例
+        - [建設現場の作業工程のシミュレーション](https://kcsj.komatsu/ict/smartconstruction)や、現場の状況可視化に活用される。（コマツ スマートコンストラクション）
+        - [防災計画の作成](https://www.mlit.go.jp/plateau/)にも活用（PLATEAU） 
+      
   - **ゲーム・アニメーション**
     - コンテンツ内の物体が物理法則に従い動く
-      - [クールジャパン戦略](https://www.cao.go.jp/cool_japan/index.html)では、2.8兆円規模の海外展開がされているゲームではXR・3D対応できる人材育成が重要であると述べられている。（[参考](https://www.cao.go.jp/cool_japan/aratana/pdf/gaiyou1.pdf)）
       - エヴァンゲリオンの制作にもBlenderが活用され、Houdiniを使用したパーティクルのシミュレーションを映像に使用している。（[CGWORLD](https://cgworld.jp/article/202307-cgw299-eva.html)）
+      - [クールジャパン戦略](https://www.cao.go.jp/cool_japan/index.html)では、2.8兆円規模の海外展開がされているゲームではXR・3D対応できる人材育成が重要であると述べられている。（[参考](https://www.cao.go.jp/cool_japan/aratana/pdf/gaiyou1.pdf)）
 - ものづくり系エンジニア、クリエイターを目指すにあたり、シミュレーション技術の習得は重要
 ### この講座のコンセプト
 - シミュレーション技術を活用したエンジニア・クリエイターになるための入り口となるような教材を提供したい。
@@ -39,7 +42,7 @@
 - 簡単な質点の運動からBlenderを用いた3Dモデルのシミュレーションまで
 
 ### プログラミングによる物理シミュレーションの実装
-  - Blender物理演算の2Dバージョンまで作成し、Blenderでの実装を想像しやすくなってもらう。
+  - Blender物理演算の2Dバージョンまで作成し、Blender物理演算の中身を想像しやすくなってもらう。
     - ソフトボディシミュレーション (02_soft_dody_2D/soft_body_2D.py)
 
 ![ソフトボティ](02_soft_body_2D/gif/soft_body_simulation.gif)
@@ -47,19 +50,6 @@
   - 布？ひも？ (03_cloth_2D/cloth_sim.py)
 
 ![Cloth](03_cloth_2D/gif/cloth_sim.gif)
-
-### [Blender Python API](https://unolaboratory.com/blender-python-physics/#toc11)のを活用したシミュレーションの実施
-- BlenderのScripting (Python)を使って物理演算機能を実装していく。
-- ソフトボディ
-
-https://github.com/user-attachments/assets/04e90078-ceb9-490d-9e2f-3a76125136ac
-
-- 布
-
-https://github.com/user-attachments/assets/da1a1a36-6e5d-4f7a-af42-d8da8b7ed17e
-
-- 流体、海洋、爆発のシミュレーションは計算ロジックが大きく異なるため「おまけ」に
-  - 流体と爆発についてはナビエ・ストークス方程式が解かれ、海洋では高速フーリエ変換が用いられる。
 
 ### 計算用プログラム
 
@@ -83,6 +73,19 @@ uv pip install -r requirements.txt
 # プログラムの実行
 uv run python FILE_NAME
 ```
+
+### [Blender Python API](https://unolaboratory.com/blender-python-physics/#toc11)のを活用したシミュレーションの実施
+- BlenderのScripting (Python)を使って物理演算機能を実装していく。
+- ソフトボディ
+
+https://github.com/user-attachments/assets/04e90078-ceb9-490d-9e2f-3a76125136ac
+
+- 布
+
+https://github.com/user-attachments/assets/da1a1a36-6e5d-4f7a-af42-d8da8b7ed17e
+
+- 流体、海洋、爆発のシミュレーションは計算ロジックが大きく異なるため「おまけ」に
+  - 流体と爆発についてはナビエ・ストークス方程式が解かれ、海洋では高速フーリエ変換が用いられる。
 
 ## 授業計画
 | 回 | タイトル | 内容 |
