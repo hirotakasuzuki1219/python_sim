@@ -89,8 +89,6 @@ uv run python FILE_NAME
 
 ![Blender Simulation](https://github.com/hirotakasuzuki1219/python_sim/raw/refs/heads/main/04_Blender/Cloth/movie/blender_cloth_sim.mp4)
 
-<video src="https://github.com/hirotakasuzuki1219/python_sim/raw/refs/heads/main/04_Blender/Cloth/movie/blender_cloth_sim.mp4" autoplay loop muted playsinline width="100%"></video>
-
   - 流体、海洋、爆発のシミュレーションは計算ロジックが大きく異なるため「おまけ」に
     - 流体と爆発についてはナビエ・ストークス方程式が解かれ、海洋では高速フーリエ変換が用いられる。
 
