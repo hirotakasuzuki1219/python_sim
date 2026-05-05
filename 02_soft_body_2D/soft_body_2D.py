@@ -80,7 +80,7 @@ def update(frame):
         ax.plot([nodes[i,0], nodes[j,0]], [nodes[i,1], nodes[j,1]], 'orange', alpha=0.6)
     ax.scatter(nodes[:,0], nodes[:,1], color='brown', s=30)
     ax.axhline(0, color='black', lw=2)
-    ax.set_title(f"Pudding Sim: {frame/fps:.1f}s / {duration_sec}s")
+    ax.set_title(f"Softbody Sim: {frame/fps:.1f}s / {duration_sec}s")
 
 # --- 保存処理 ---
 print(f"シミュレーション開始... {output_filename} を作成中")
