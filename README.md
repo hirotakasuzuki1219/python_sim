@@ -40,26 +40,26 @@
 
 ### プログラミングによる物理シミュレーションの実装
   - Blender物理演算の2Dバージョンまで作成し、Blenderでの実装を想像しやすくなってもらう。
-    - ソフトボディシミュレーション 
+    - ソフトボディシミュレーション (02_soft_dody_2D/soft_body_2D.py)
 
 ![ソフトボティ](02_soft_body_2D/gif/soft_body_simulation.gif)
 
-  - 布？ひも？
+  - 布？ひも？ (03_cloth_2D/cloth_sim.py)
 
 ![Cloth](03_cloth_2D/gif/cloth_sim.gif)
 
 ### [Blender Python API](https://unolaboratory.com/blender-python-physics/#toc11)のを活用したシミュレーションの実施
 - BlenderのScripting (Python)を使って物理演算機能を実装していく。
-  - ソフトボディ（ばねの応用）
+- ソフトボディ
 
 https://github.com/user-attachments/assets/04e90078-ceb9-490d-9e2f-3a76125136ac
 
-  - 布（ばねの応用）
+- 布
 
 https://github.com/user-attachments/assets/da1a1a36-6e5d-4f7a-af42-d8da8b7ed17e
 
-  - 流体、海洋、爆発のシミュレーションは計算ロジックが大きく異なるため「おまけ」に
-    - 流体と爆発についてはナビエ・ストークス方程式が解かれ、海洋では高速フーリエ変換が用いられる。
+- 流体、海洋、爆発のシミュレーションは計算ロジックが大きく異なるため「おまけ」に
+  - 流体と爆発についてはナビエ・ストークス方程式が解かれ、海洋では高速フーリエ変換が用いられる。
 
 ### 計算用プログラム
 
