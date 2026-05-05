@@ -54,6 +54,8 @@
 
 https://github.com/user-attachments/assets/da1a1a36-6e5d-4f7a-af42-d8da8b7ed17e
 
+https://github.com/user-attachments/assets/04e90078-ceb9-490d-9e2f-3a76125136ac
+
   - 流体、海洋、爆発のシミュレーションは計算ロジックが大きく異なるため「おまけ」に
     - 流体と爆発についてはナビエ・ストークス方程式が解かれ、海洋では高速フーリエ変換が用いられる。
 
