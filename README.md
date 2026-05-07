@@ -6,18 +6,19 @@
 - 複雑な物理現象を扱う際には、コンピュータシミュレーションが用いられる。
   - **製造業・建設業**
     - 目標性能を満たしているか、狙った動きをするのかを視覚的に確認。（CAE）
-    - デジタルツイン：デジタル空間の中に現実世界の環境（工場、[都市](https://www.mlit.go.jp/plateau/)、[工事現場]((https://kcsj.komatsu/ict/smartconstruction))など）を作り出す技術。SDKIによれば、デジタルツインのグローバル市場は、2022年から約63倍の6,255億ドルに成長すると予想されている。（[参考：総務省 情報白書令和6年度版](https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/r06/html/nd217530.html)）
+    - デジタルツイン：デジタル空間の中に現実世界の環境（工場、[都市](https://www.mlit.go.jp/plateau/)、[工事現場]((https://kcsj.komatsu/ict/smartconstruction))など）を作り出す技術。
+      - SDKIによれば、デジタルツインのグローバル市場は、2022年から約63倍の6,255億ドルに成長すると予想。（[参考：総務省 情報白書令和6年度版](https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/r06/html/nd217530.html)）
       
   - **ゲーム・アニメーション**
     - コンテンツ内の物体が物理法則に従い動く
       - エヴァンゲリオンの制作にもBlenderが活用され、Houdiniを使用したパーティクルのシミュレーションを映像に使用している。（[CGWORLD](https://cgworld.jp/article/202307-cgw299-eva.html)）
-    - [クールジャパン戦略](https://www.cao.go.jp/cool_japan/index.html)
-      - 2.8兆円規模の海外展開がされているゲームではXR・3D対応できる人材育成が重要であると述べられている。（[参考](https://www.cao.go.jp/cool_japan/aratana/pdf/gaiyou1.pdf)）
-    - [アニメーション製作者実態調査2026](https://www.janica.jp/survey/survey2026Report.pdf)
+    <!-- - [アニメーション製作者実態調査2026](https://www.janica.jp/survey/survey2026Report.pdf)
       - 「安心して仕事を取り組むために必要なこと」として、83.1%が「報酬額が増えること」をあげている。
-      - 収入は横ばい（平均444.6万円）で、物価上昇より実質目減りしている。
+      - 収入は横ばい（平均444.6万円）で、物価上昇より実質目減りしている。 -->
     - [ゲーム開発者の就業とキャリア形成2024](https://www.cesa.or.jp/uploads/2025/info20250120-1.pdf)
       - [テクニカルアーティスト](https://career.famitsu.com/column/7404)の平均年収は、役員、プロデューサー、ディレクターに次いで、832.9万円と高水準。エンジニアも721.5万円と高い。（アーティストは555.1万円）
+    - [クールジャパン戦略](https://www.cao.go.jp/cool_japan/index.html)
+      - 2.8兆円規模の海外展開がされているゲームではXR・3D対応できる人材育成が重要であると述べられている。（[参考](https://www.cao.go.jp/cool_japan/aratana/pdf/gaiyou1.pdf)）
 
 - 競争力の高いものづくり系エンジニア、クリエイターを目指すにあたり、シミュレーション技術（及びそれに必要なプログラミング技術）の習得は重要
 ### この講座のコンセプト
@@ -34,15 +35,17 @@
 ## 講座の内容
 ### 概要
 - シミュレーションを自らプログラミングして完成させてもらう。
+  - 運動方程式の数値的な解き方、衝突・接触、バネ力について理解してもらう。
 - 簡単な質点の運動からBlenderを用いた3Dモデルのシミュレーションまで
 
 ### プログラミングによる物理シミュレーションの実装
   - Blender物理演算の2Dバージョンまで作成し、Blender物理演算の中身を想像しやすくなってもらう。
-    - ソフトボディシミュレーション (02_soft_dody_2D/soft_body_2D.py)
+
+  - ソフトボディシミュレーション (02_soft_dody_2D/soft_body_2D.py)
 
 ![ソフトボティ](02_soft_body_2D/gif/soft_body_simulation.gif)
 
-  - 布？ひも？ (03_cloth_2D/cloth_sim.py)
+  - 布（ひも？） (03_cloth_2D/cloth_sim.py)
 
 ![Cloth](03_cloth_2D/gif/cloth_sim.gif)
 
@@ -71,16 +74,17 @@ uv run python FILE_NAME
 
 ### [Blender Python API](https://unolaboratory.com/blender-python-physics/#toc11)のを活用したシミュレーションの実施
 - BlenderのScripting (Python)を使って物理演算機能を実装していく。
-  - ソフトボディ
+  - ソフトボディシミュレーション、剛体、Clothは本編で（バネの延長線）
+  - 流体、海洋、爆発のシミュレーションは計算ロジックが大きく異なるため「おまけ」に
+    - 流体と爆発についてはナビエ・ストークス方程式が解かれ、海洋では高速フーリエ変換が用いられる。
+
+- ソフトボディ
 
 https://github.com/user-attachments/assets/04e90078-ceb9-490d-9e2f-3a76125136ac
 
 - 布
 
 https://github.com/user-attachments/assets/da1a1a36-6e5d-4f7a-af42-d8da8b7ed17e
-
-- 流体、海洋、爆発のシミュレーションは計算ロジックが大きく異なるため「おまけ」に
-  - 流体と爆発についてはナビエ・ストークス方程式が解かれ、海洋では高速フーリエ変換が用いられる。
 
 ## 授業計画
 | 回 | タイトル | 内容 |
@@ -91,8 +95,8 @@ https://github.com/user-attachments/assets/da1a1a36-6e5d-4f7a-af42-d8da8b7ed17e
 | 4 | 物理法則の導入(運動方程式) | 自由落下シミュレーション |
 | 5 | 衝突、摩擦 | 地面に落ちる物体 |
 | 6 | バネを導入したシミュレーション | フックの法則、減衰の導入 |
-| 7 | 多自由度系への拡張 Ⅰ | ２Dのソフトボディ |
-| 8 | 多自由度系への拡張 Ⅱ | ２D布（ひも？） |
+| 7 | 多自由度系への拡張 Ⅰ | ２D のソフトボディ |
+| 8 | 多自由度系への拡張 Ⅱ | ２D 布（ひも？） |
 | 9 | Blenderの物理エンジンを使ってみよう Ⅰ | 基本操作 |
 | 10 | Blenderの物理エンジンを使ってみよう Ⅱ | 剛体 |
 | 11 | Blenderの物理エンジンを使ってみよう Ⅲ | 布 |
